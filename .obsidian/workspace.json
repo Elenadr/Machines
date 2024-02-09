@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "5d0d4d0d18088ea2",
+    "type": "split",
+    "children": [
+      {
+        "id": "c53ddc9cb79c5ccd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81b935c2daf26918",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HackTheBox/Bizness.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "853bebb268014ee8",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd0af05548fd074a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb96dd3f5e608a6b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f1d203cce8f06382",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "485e3b399b64c2fb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "14952ecbdcc3bb7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "08e3e8a585945665",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "822e095d8866fada",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HackTheBox/Bizness.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "71149eb693a9fc5b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HackTheBox/Bizness.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "283d8da25a6fcc50",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f46c5bc928465c49",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HackTheBox/Bizness.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo canvas": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "81b935c2daf26918",
+  "lastOpenFiles": [
+    "Images/Pasted image 20240209114916.png",
+    "HackTheBox/Bizness.md",
+    "Machines/Images",
+    "Machines",
+    "Images"
+  ]
+}
