@@ -15,5 +15,5 @@ Si intentamos acceder a la url de la máquina en el navegador nos dará error, h
 Accedemos a la url:
 https://bizness.htb/
 
-![[../Images/Pasted image 20240209121918.png]]
+![](../Images/Pasted%20image%2020240209121918.png)
 
