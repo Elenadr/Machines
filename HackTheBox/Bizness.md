@@ -17,3 +17,21 @@ https://bizness.htb/
 
 ![](../Images/Pasted%20image%2020240209121918.png)
 
+Mientras tanto lanzamos un mapeo específico a los puertos
+```bash
+nmap -Pn -n -T4 -sCV -p22,80,443,46115 10.10.11.252
+```
+
+
+![](../Images/Pasted%20image%2020240209122855.png)
+Y un tercer escaneo con un script de vulnerabilidades:
+
+```bash
+nmap -Pn -n -T4 --script vuln -p22,80,443,46115 10.10.11.252
+```
+
+Y escaneamos la url:
+```bash
+ dirb https://bizness.htb/
+```
+
