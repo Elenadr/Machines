@@ -74,3 +74,4 @@ hashcat -m 120 -a 0 -d 1 "b8fd3f41a541a435857a8f3e751cc3a91c174362:d" /usr/share
 ![](../Images/Pasted%20image%2020240209143054.png)
 
 
+![alt text](image.png)
