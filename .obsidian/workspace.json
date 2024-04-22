@@ -138,9 +138,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:Crear nuevo lienzo": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo canvas": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false
@@ -148,6 +148,10 @@
   },
   "active": "81b935c2daf26918",
   "lastOpenFiles": [
+    "HackTheBox/index.md",
+    "HackTheBox/Bizness.md",
+    "TryHackMe/index.md",
+    "Vulnhub/index.md",
     "Images/Pasted image 20240209143054.png",
     "Images/Pasted image 20240209141541.png",
     "Images/Pasted image 20240209141237.png",
@@ -158,8 +162,6 @@
     "Images/Pasted image 20240209133526.png",
     "Images/Pasted image 20240209131512.png",
     "Images/Pasted image 20240209130647.png",
-    "Images/Pasted image 20240209125406.png",
-    "HackTheBox/Bizness.md",
     "HackTheBox/Images",
     "Machines/Images",
     "Machines",
