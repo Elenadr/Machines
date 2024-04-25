@@ -5,13 +5,13 @@
    @font-face
    {
       font-family: "LUMOS";
-      src: url("https://github.com/Elenadr/2020-2021-LTAW-Practicas/blob/main/P1/Tienda/pages/LUMOS.ttf");
+      src: url("LUMOS.ttf");
    }
    
    @font-face
    {
       font-family: "HARRYP__";
-      src: url("https://github.com/Elenadr/2020-2021-LTAW-Practicas/blob/main/P1/Tienda/pages/HARRYP__.TTF");
+      src: url("HARRYP__.TTF");
    }
    
    @font-face {
