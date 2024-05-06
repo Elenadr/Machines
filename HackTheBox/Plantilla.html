@@ -6,24 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="prism.css">
         <title>Bizness</title>
         <link rel="icon" href="https://raw.githubusercontent.com/Elenadr/2020-2021-LTAW-Practicas/main/P1/wiki/icon.ico">
     </head>
     <body>
             <!-- Div de cabecera. Se mantiene siempre. Es el 'dni' de mi página-->
     <div id="header">
-        <img src="https://raw.githubusercontent.com/Elenadr/Machines/main/Images/bizz.png" alt="bizz">
+
+        <img src="https://raw.githubusercontent.com/Elenadr/Machines/main/Images/bizz2.png" alt="bizz">
+        <h6> Bizzness HTB</h6>
     </div>
-    <div id="menuhead"> 
 
-     </div>
         <div id="particles-js">
+                <p> Lo primero de todo vamos a empezar escaneando la url para ver los puertos que tiene abiertos: </p>
+            <div class="container">
+ 
 
-                    <!-- Div de particles. Es para el fondo en movimiento, se aplica a todo el cuerpo-->
+                    <pre><code id="code" >nmap -Pn -n -T4 --min-rate 4000 --max-rtt-timeout 2000ms -p- 10.10.11.252 --open</code>
+                    </pre>
+                
+                <button id="copy-button">Copy</button>
 
-        </div>
+              <span id="copy-success">Code copied! :)</span>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+            
+    <!-- Div de particles. Es para el fondo en movimiento, se aplica a todo el cuerpo-->
+       </div>
     </body>
    <!-- Scripts necesarios para aplicar fondo en mov y configurarlo.-->
    <script src="particles.js" ></script>
    <script src="app.js" ></script>
+   <script src="prism.js"></script>
 </html>

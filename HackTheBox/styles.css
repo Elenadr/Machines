@@ -24,11 +24,76 @@
      margin: 0;
      padding: 0px 0 0 0;
      top: 0;
-     background-color:#00020a;
+     background-color:#0e1633;
      box-sizing: border-box;
-     
    }
-   
+
+   .container {
+
+
+    position: relative;
+    display: inline-flex;
+    margin-left: 10%;
+    margin-right: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    background-color: #071e3d;
+    color: white;
+    padding: 28px 20px 5px 20px;
+    border-radius: 10px;
+    width: fit-content;
+  }
+
+
+
+
+  #copy-button {
+    width: fit-content;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 7px;
+    background-color: #1f4287;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    opacity: 1;
+  }
+  
+
+  
+  #copy-button:hover {
+    background-color: #1f428790;
+  }
+  
+  .code-wrapper:hover #copy-button {
+    opacity: 1;
+  }
+  
+  #copy-success {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1f4287;
+    color: white;
+    padding: 16px 32px;
+    font-size: 24px;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  #copy-success.show-message {
+    display: inline-block;
+  }
+  
+  .hljs {
+    background-color: transparent;
+  }
    /* Style the header with a grey background and some padding */
    #header{
      /* Enable flex mode. */
@@ -43,7 +108,6 @@
      background-size:cover;
      background-repeat: no-repeat;
      text-align: center;
-   
      max-width:100%;
      height:auto;
    }
@@ -59,66 +123,9 @@
      }
      
    }
-   #menuhead{
-     font-family: "fontawesome-free-5.15.3-web/css/all.css", sans-serif;
-     display:flex;
-     float: right;
-     margin-right: 10%;
-     margin-top: 40px;
-   }
-   #menuhead a{
-     font-family: "fontawesome-free-5.15.3-web/css/all.css", sans-serif;
-     font-size: 30px;
-     margin-right: 20%;
-     color:  #ffffff;
-     font-style: normal;
-   }
-   #header #menuhead .menuhead-cart{
-     margin-right: 70%;
-   }
-   
-   
-   #subtiendas{
-   
-     display: flex;
-     position: absolute;
-     top: 30%;
-     bottom: 40%;
-     left: 10%;
-     right: 10%;
-     margin: -25px -25px -25px -25px;
-     justify-content: space-between;
-   
-   }
-   #subtiendas a{
-   
-     font-style: normal;
-     text-decoration:none;
-   }
-   
-   .image{
-     max-width:100%;
-     height:auto;
-   }
-   .ollivander{
-     position: relative;
-     margin-left: auto;
-     margin-right: auto;
-   
-   
-   }
-   .quidditch{
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   
-   }
-   .honeydukes{
-     position: relative;
-     margin-left: auto;
-     margin-right: auto;
-     text-align: center;
-   }
+
+  
+
     /* Estilo del encabezado principal, osea del título */
    h3 {
      font-family: "HARRYP__";
@@ -133,9 +140,11 @@
    h6{
      font-family: "LUMOS";
      text-align: center;
-     font-size: 30px;
-     color:#a85;
+     font-size: 40px;
+     color:rgb(180, 121, 32);
      margin-bottom: 0px;
+     margin-top: 0px;
+     /*background-color: #00020a;*/
    
    }
    
@@ -144,6 +153,7 @@
      font-family: "LUMOS";
      font-size: 30px;
      color: white;
+     margin-left: 10%;
    }
    
    
